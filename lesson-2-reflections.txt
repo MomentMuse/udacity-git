@@ -1,0 +1,9 @@
+//What happens when you initialize a repository? Why do you need to do it?
+
+It creates a hidden .git folder to keep track of your changes. This will allow you to keep track of commits on your files.
+
+//How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory: your local files that you are working on
+Repository: committed or finalized directory, as hosted on github
+Staging area: an intermediary step between the two, like a "soft save", but you're not sure if you want to commit to the changes yet.
