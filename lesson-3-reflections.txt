@@ -11,7 +11,9 @@ If you were working on a collaborative project, having Git automatically pull ne
 // Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+A fork is a a public copy of someone else's repository on GitHub that gives you ownership and the ability to edit and tinker with it as you please. You can edit the project and build on it as your own file, and push changes to your forked copy of the repo online. Fork would be ideal if you wanted to create a different version of the project for public display.
+A clone is a local copy of a repository that contains its history and branches. Cloning someone's repository would be useful if you wanted to understand the development of a project, or tinker with it for personal use with no intention of retooling and uploading it on your own account (although this is possible for a cloned repository, forking would be more suitable.)
+A branch is another path of development of a project, whether it be experimental or include some other feature. It would be useful to create new branches of a project if multiple collaborators are working on it at once. This would avoid conflicts, and the branches would later be able to merged into the master branch once changes were finalized
 
 // What is the benefit of having a copy of the last known state of the remote
 stored locally?
