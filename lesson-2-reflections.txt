@@ -7,3 +7,15 @@ It creates a hidden .git folder to keep track of your changes. This will allow y
 Working directory: your local files that you are working on
 Repository: committed or finalized directory, as hosted on github
 Staging area: an intermediary step between the two, like a "soft save", but you're not sure if you want to commit to the changes yet.
+
+//How can you use the staging area to make sur eyou have one commit per logical change?
+
+You can make sure you only add files to the staging area that have the same logical change before you commit.
+
+//What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Using branches would create alternative paths for different version of your files. For example, this would be very useful if you wanted to create a different language version of your project (in that case, you would create a branch named after the second language) or a version that used experimental features and could possibly break your code. By working on alternate versions of the project concurrently, you would also be able to merge it with the master branch if you so desire. 
+
+//How do the diagrams help you visualize the branch structure?
+
+It helps having a visual representation of the pasat commits in a project. I understand more clearly now what commits are unreachable from others, and why checkouts on unsaved branches will be lost if you do not create a new branch for them.
