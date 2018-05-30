@@ -8,7 +8,7 @@ Working directory: your local files that you are working on
 Repository: committed or finalized directory, as hosted on github
 Staging area: an intermediary step between the two, like a "soft save", but you're not sure if you want to commit to the changes yet.
 
-//How can you use the staging area to make sur eyou have one commit per logical change?
+//How can you use the staging area to make sure you have one commit per logical change?
 
 You can make sure you only add files to the staging area that have the same logical change before you commit.
 
@@ -19,3 +19,11 @@ Using branches would create alternative paths for different version of your file
 //How do the diagrams help you visualize the branch structure?
 
 It helps having a visual representation of the pasat commits in a project. I understand more clearly now what commits are unreachable from others, and why checkouts on unsaved branches will be lost if you do not create a new branch for them.
+
+//What is the result of merging two branches together? WHy do we represent it in the diagram the way we do?
+
+Merging two branches together integrates any new features into the master branch. THe diagram showed how the merge works, by referencing back to each parent to know which lines to keep and which lines to delete.
+
+//What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Automatic merging is quick and painless and helpful in a collaborative environment. Manual merges take more time, but allow you to weigh the pros and cons of your code and pick the most suitable code for your desired outcome. Also, manual merges could actually be more prone to error if you are dealing with a large codebase/many lines of copy + pasting a shifting things around.
