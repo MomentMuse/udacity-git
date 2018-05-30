@@ -18,12 +18,12 @@ A branch is another path of development of a project, whether it be experimental
 // What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+You can update your local copy of a repository before a period of being offline. While offline, you will be able to continue work with the newest versions of the files. You can also perform a merge offline, or at least have a way to access the remote version afterwards.
 
 // How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+Without Github, setting up pull requests would probably be replaced with emails, skype calls, or in-person conversations. Collaborators would work on their contribution to the project on their own, but would have a hard time keeping up-to-date with a master version of the project. Merges would have to be made manually, which would take a much long time. 
 
 // When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
