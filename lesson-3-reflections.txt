@@ -6,7 +6,7 @@ Remote repositories would be helpful if you were working on a collaborative proj
 // Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+If you were working on a collaborative project, having Git automatically pull new changes to your local repository could create merge conflicts and introduce bugs or incompatible code. Being able to manually pull branches from the remote repository and deliberately integrate updates with local files is much safer and offers more control.
 
 // Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
